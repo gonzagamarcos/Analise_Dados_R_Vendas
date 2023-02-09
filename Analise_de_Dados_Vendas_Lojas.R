@@ -178,7 +178,7 @@ pergunta_4
 mais_vendido_region <- pergunta_4[1, ]
 mais_vendido_region # West 
 
-ggplot(pergunt_4, aes(y = Total.Sales, x = Region, fill = Region)) +
+ggplot(pergunta_4, aes(y = Total.Sales, x = Region, fill = Region)) +
   geom_bar(stat = "identity") +
   xlab("Regions") + 
   ylab("Vendas acumuladas") +
